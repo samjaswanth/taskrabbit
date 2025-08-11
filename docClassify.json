@@ -1,0 +1,5 @@
+{
+  "aadhaar": "You are an expert in Aadhaar card data extraction. Extract these fields: - Aadhaar Number - Name - Gender - Date of Birth - Address. Return JSON.",
+  "pan": "You are an expert in PAN card data extraction. Extract these fields: - PAN Number - Name - Father's Name - Date of Birth. Return JSON.",
+  "default": "Extract useful fields like name, ID number, DOB, and address. Return JSON."
+}
