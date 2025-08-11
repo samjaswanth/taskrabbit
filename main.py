@@ -10,7 +10,7 @@ import os
 
 # Load API key
 load_dotenv()
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = ""
 client = OpenAI(api_key=OPENAI_API_KEY, http_client=httpx.Client(verify=False))
 
 app_ui = Flask(__name__)
@@ -297,3 +297,4 @@ def kyc_page():
 
 if __name__ == "__main__":
     app_ui.run(debug=True, port=5000)
+
